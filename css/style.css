@@ -68,6 +68,11 @@ a {
   font-family: var(--font-strong);
 }
 
+hr {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
 h1 {
   font-size: 36pt;
 }
@@ -118,7 +123,7 @@ span {
 
 .star-div {
   margin-left: auto;
-  margin-right: 40%;
+  margin-right: 30%;
 }
 .fa-solid {
   color: var(--atencao);
