@@ -90,6 +90,11 @@ span {
   font-size: 14pt;
 }
 
+.a-click button {
+  cursor: pointer;
+}
+
+
 .div-main {
   display: grid;
   grid-template-columns: 3fr 2fr;
