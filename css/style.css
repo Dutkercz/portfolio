@@ -94,11 +94,11 @@ span {
   cursor: pointer;
 }
 
-
 .div-main {
   display: grid;
   grid-template-columns: 3fr 2fr;
   max-width: 1200px;
+  min-height: 100vh;
   margin: 2rem auto;
   padding: 0 2rem;
   gap: 4rem;
@@ -150,6 +150,14 @@ button:hover {
   background-color: var(--p-azul-escuro);
   transform: translateY(-2px) translateX(-2px);
   transition: color 0.3s ease;
+}
+
+footer {
+  background-color: var(--s-azul-pastel);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
 }
 
 nav {
