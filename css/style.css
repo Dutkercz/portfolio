@@ -238,7 +238,7 @@ nav li a:hover {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 
@@ -275,4 +275,26 @@ nav li a:hover {
 .project-content h2 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
+}
+
+.project-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.project-button button {
+  width: 100%;
+  cursor: pointer;
+  width: 100%;
+  margin: 0;  
+}
+
+.project-button {
+  flex: 1;
+  min-width: 80px;
+  margin: 0;
+  text-align: center;  
 }
